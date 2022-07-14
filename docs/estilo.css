@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,300;0,800;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,300;0,800;1,200&family=Ibarra+Real+Nova:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,800;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,300;0,800;1,200&family=Ibarra+Real+Nova:ital@1&family=Roboto+Mono:wght@700&display=swap');
+div {
+    width: 500px;
+    border: 5px dotted black;
+    padding: 50px;
+    margin: 20px;
+    text-align: justify;
+}
+body {
+    background-color:rgb(230, 230, 250)
+    margin-top 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 1.5em;
+}
+/*CSS DE MENU DE NAVECACION*/
+
+/*
+ * Navegación
+ */
+ nav {
+	float: justify;
+}
+	nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+    background-color: #333;
+    overflow: hidden;
+	
+	}
+	
+		nav ul li {
+			display: inline-block;
+			line-height: 60px;
+            border-right: 1px solid #bbb;
+            padding:5px 5px;
+    
+		}
+		li:last-child {
+            border-right: none;
+          }	
+			nav ul li a {
+				display: block;
+				padding: 100px;
+        color: white;
+				text-decoration: none;
+        padding: 4px 4px 4px 4px;
+			}
+			
+				nav ul li a:hover {
+					background: gray;
+          color: yellow;
+				}
+/*Estilo de encabezado */
+header {
+    background-color: green;
+    color: azure;
+    text-align: right;
+    font-family: 'Albert Sans', sans-serif;
+    height: 175px;
+	 width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+    left: 0; /* Posicionamos la cabecera al lado izquierdo */
+    top: 0; /* Posicionamos la cabecera pegada arriba */
+    position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+    
+}
+
+.posi{text-align: center; font-size: 50px;margin-top: 30px; color:yellow;}
+/*Fin de estilo de encabezado*/
+
+h1{ font-family: 'Albert Sans', sans-serif;font-size: xx-large;color: white;text-align:right; padding: 10px;font-style: inherit;}
+h2{font-family: 'Albert Sans', sans-serif;font-size: 30px;}
+main {
+    font-family: 'Albert Sans', sans-serif;
+    background-color: white;
+    margin-top: 200px;
+    margin-bottom: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius:20px ;
+
+}
+.imagen {height: 300px ; width:200px ;}
+
+img {height: 150px ; width:100px ;}
+
+
+.parrafo1 { text-align: justify;}
+
+p{margin: 0 0 1.5em 0;}
+table {text-align: left;}
+
+table{
+    width: 50%;
+    margin: 0 auto;
+    background-color: white;
+    border: double 1px black;
+    border-collapse:collapse ;
+    border-spacing: 0 ;
+    margin-top: 20pxs;
+    box-shadow: 3px 3px 4px lightblue;
+}
+
+table caption{
+    background-color: gray;
+    color: aliceblue;
+    font-size: 25px;
+    padding: 20px;
+   
+}
+
+table thead{
+    background-color: black;
+    color: azure;
+    font-size: 23px;
+    padding: 20px;
+}
+table tr, table th{
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid gainsboro;
+    text-align: center;
+}
+table tr:nth-child(even){
+    background-color: rgba(128, 128, 128, 0.494)
+}
+table td:nth-child(6){
+    text-align: center;
+
+}
+table img{
+    text-align: center;
+    
+    width: 100%;
+}
+/*Fin de estilo a tabla*/
+/*inicio de estilo listas*/
+.ul{
+    text-align: justify;
+    background-color: antiquewhite;
+    font-family: 'Ibarra Real Nova', serif;
+    width: 80%;
+}
+
+.ol{
+    background-color: yellow;
+    width: 80%;
+    font-family: 'Ibarra Real Nova', serif;
+    text-align: justify;
+}
+
+/*Estilo formulario*/
+button{
+    display: block;
+    width: 30%;
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+option{
+    text-align: center;
+    background-color: yellow;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 15px;
+}
+span{
+    text-align:right;
+
+  
+}
+input{
+    font-family: cursive;
+}
